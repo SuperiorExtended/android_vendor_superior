@@ -67,6 +67,10 @@ ifeq ($(BUILD_WITH_GAPPS),true)
 $(call inherit-product-if-exists, vendor/gms/gms.mk)
 endif
 
+# Hide nav Overlays
+PRODUCT_PACKAGES += \
+    NavigationBarNoHintOverlay 
+
 # Include AOSP audio files
 include vendor/superior/config/aosp_audio.mk
 
