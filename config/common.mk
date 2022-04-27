@@ -47,6 +47,10 @@ ifeq ($(BUILD_WITH_GAPPS),true)
     $(call inherit-product, vendor/gapps/common/common-vendor.mk)
 endif
 
+# Enable Smart Charging
+PRODUCT_COPY_FILES += \
+    vendor/superior/prebuilt/common/etc/init/smartcharge-init.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/smartcharge-init.rc
+
 # Superior Permissions
 PRODUCT_COPY_FILES += \
     vendor/superior/config/permissions/privapp-permissions-superior-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-superior.xml \
