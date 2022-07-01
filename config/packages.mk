@@ -40,7 +40,8 @@ PRODUCT_PACKAGES += \
     NetworkStackOverlay \
     Stk \
     ThemePicker \
-    ThemesStub
+    ThemesStub \
+    RepainterServicePriv
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
