@@ -92,5 +92,14 @@ include vendor/prebuilts/prebuilts.mk
 #versioning
 include vendor/superior/config/version.mk
 
+# Smartspace
+PRODUCT_PACKAGES += \
+    DeviceIntelligenceNetworkPrebuilt \
+    DevicePersonalizationPrebuiltPixel2021 \
+    PixelConfigOverlayCommon
+
+PRODUCT_COPY_FILES += \
+    vendor/superior/config/permissions/privapp-permissions-google-as.xml:product/etc/permissions/privapp-permissions-google-as.xml
+    
 # Superior_props
 $(call inherit-product, vendor/superior/config/superior_props.mk)
