@@ -74,7 +74,8 @@ $(call inherit-product-if-exists, vendor/certification/config.mk)
 
 # Cloned app exemption
 PRODUCT_COPY_FILES += \
-    vendor/superior/prebuilt/common/etc/sysconfig/preinstalled-packages-platform-superior-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-superior-product.xml
+    vendor/superior/prebuilt/common/etc/sysconfig/preinstalled-packages-platform-superior-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-superior-product.xml \
+    vendor/superior/config/permissions/privapp-permissions-superior-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-superior-product.xml
 
 # Updater
 PRODUCT_PACKAGES += \

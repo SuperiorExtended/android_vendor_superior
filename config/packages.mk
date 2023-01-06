@@ -26,7 +26,8 @@ PRODUCT_PACKAGES += \
     Stk \
     ThemePicker \
     ThemesStub \
-    RepainterServicePriv
+    RepainterServicePriv \
+    SettingsIntelligenceGoogle
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     vendor/superior/overlay \
