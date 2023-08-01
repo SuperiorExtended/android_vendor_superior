@@ -41,7 +41,9 @@ PRODUCT_PACKAGES += \
     Stk \
     ThemePicker \
     ThemesStub \
-    RepainterServicePriv
+    RepainterServicePriv \
+    ParallelSpace \
+    OmniJaws
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
