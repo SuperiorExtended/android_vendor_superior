@@ -43,7 +43,8 @@ PRODUCT_PACKAGES += \
     ThemesStub \
     RepainterServicePriv \
     ParallelSpace \
-    OmniJaws
+    OmniJaws \
+    TouchGestures
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
