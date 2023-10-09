@@ -46,7 +46,11 @@ PRODUCT_PACKAGES += \
     Updater
 
 ifeq ($(BUILD_WITH_GAPPS),true)
-SUPERIOR_EDITION := GAPPS
+	ifeq ($(TARGET_CORE_GMS), true)
+		SUPERIOR_EDITION := CORE
+	else
+		SUPERIOR_EDITION := GAPPS
+	endif
 else
 SUPERIOR_EDITION := Vanilla
 endif
