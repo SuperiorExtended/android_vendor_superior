@@ -53,6 +53,9 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/bin/procmem
 endif
+    
+# Clocks
+$(call inherit-product, vendor/superior/config/clocks.mk)
 
 # Protobuf - Workaround for prebuilt Qualcomm HAL
 PRODUCT_PACKAGES += \
