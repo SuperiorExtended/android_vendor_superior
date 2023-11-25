@@ -99,5 +99,6 @@ include packages/overlays/Themes/themes.mk
 
 # Include Superior_props
 $(call inherit-product, vendor/superior/config/superior_props.mk)
+$(call inherit-product-if-exists, vendor/pixel-framework/config.mk)
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
