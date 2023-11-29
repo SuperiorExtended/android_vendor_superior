@@ -18,22 +18,6 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources>
-    <!-- SystemUI Plugins that can be loaded on user builds. -->
-    <string-array name="config_pluginAllowlist" translatable="false">
-        <item>com.android.systemui</item>
-        <item>com.android.systemui.plugin.globalactions.wallet</item>
-        <item>"com.android.systemui.falcon"</item>
-        <item>"com.android.systemui.falcon.debug"</item>
-        <item>"com.android.systemui.falcon.one"</item>
-        <item>"com.android.systemui.falcon.two"</item>
-        <item>"com.android.systemui.falcon.three"</item>
-        <item>"com.android.systemui.falcon.four"</item>
-        <item>"com.android.systemui.falcon.five"</item>
-        <item>"com.android.systemui.falcon.six"</item>
-        <item>"com.android.systemui.falcon.seven"</item>
-        <item>"com.android.systemui.falcon.eight"</item>
-        <item>"com.android.systemui.falcon.nine"</item>
-    </string-array>
 
     <!-- Icons that don't show in a collapsed non-keyguard statusbar -->
     <string-array name="config_collapsed_statusbar_icon_blocklist" translatable="false">
@@ -50,24 +34,32 @@
 
     <!-- SystemUI Plugins that can be loaded on user builds. -->
     <string-array name="config_pluginAllowlist">
-     <item>com.android.systemui</item>
-     <item>com.android.systemui.plugin.globalactions.wallet</item>
-     <item>com.android.systemui.falcon</item>
-     <item>com.android.systemui.falcon.debug</item>
-     <item>com.android.systemui.falcon.one</item>
-     <item>com.android.systemui.falcon.two</item>
-     <item>com.android.systemui.falcon.three</item>
-     <item>com.android.systemui.falcon.four</item>
-     <item>com.android.systemui.falcon.five</item>
-     <item>com.android.systemui.falcon.six</item>
-     <item>com.android.systemui.falcon.seven</item>
-     <item>com.android.systemui.falcon.eight</item>
-     <item>com.android.systemui.falcon.nine</item>
- </string-array>
- <string-array name="config_pluginWhitelist">
-     <item>com.android.systemui</item>
-     <item>com.android.systemui.plugin.globalactions.wallet</item>
- </string-array>
+        <item>com.android.systemui</item>
+        <item>com.android.systemui.plugin.globalactions.wallet</item>
+        <item>com.android.systemui.falcon</item>
+        <item>com.android.systemui.falcon.debug</item>
+        <item>com.android.systemui.falcon.one</item>
+        <item>com.android.systemui.falcon.two</item>
+        <item>com.android.systemui.falcon.three</item>
+        <item>com.android.systemui.falcon.four</item>
+        <item>com.android.systemui.falcon.five</item>
+        <item>com.android.systemui.falcon.six</item>
+        <item>com.android.systemui.falcon.seven</item>
+        <item>com.android.systemui.falcon.eight</item>
+        <item>com.android.systemui.falcon.nine</item>
+        <item>com.android.systemui.falcon.ten</item>
+        <item>com.android.systemui.falcon.eleven</item>
+        <item>com.android.systemui.falcon.twelve</item>
+        <item>com.android.systemui.falcon.thirteen</item>
+        <item>com.android.systemui.clocks.bignum</item>
+        <item>com.android.systemui.clocks.calligraphy</item>
+        <item>com.android.systemui.clocks.flex</item>
+        <item>com.android.systemui.clocks.growth</item>
+        <item>com.android.systemui.clocks.inflate</item>
+        <item>com.android.systemui.clocks.metro</item>
+        <item>com.android.systemui.clocks.numoverlap</item>
+        <item>com.android.systemui.clocks.weather</item>
+    </string-array>
 
     <!-- Whether or not lockscreen shortcuts can be customized -->
     <bool name="custom_lockscreen_shortcuts_enabled" translatable="false">true</bool>
