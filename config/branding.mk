@@ -41,10 +41,6 @@ ifeq ($(SUPERIOR_OFFICIAL), true)
     endif
 endif
 
-#include vendor/superior-priv/keys.mk
-PRODUCT_PACKAGES += \
-    Updater
-
 ifeq ($(BUILD_WITH_GAPPS),true)
 SUPERIOR_EDITION := GAPPS
 else
