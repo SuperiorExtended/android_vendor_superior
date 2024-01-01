@@ -64,7 +64,7 @@ PRODUCT_PACKAGES += \
 
 # Gapps
 ifeq ($(BUILD_WITH_GAPPS),true)
-$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
+$(call inherit-product-if-exists, vendor/gms/gms.mk)
 endif
 
 # Include AOSP audio files
