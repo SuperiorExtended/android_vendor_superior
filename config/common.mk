@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
 # Certification
 $(call inherit-product-if-exists, vendor/certification/config.mk)
 
+# Cloned app exemption
+PRODUCT_COPY_FILES += \
+    vendor/superior/prebuilt/common/etc/sysconfig/preinstalled-packages-platform-superior-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-superior-product.xml
+
 # Updater
 PRODUCT_PACKAGES += \
     Updater
