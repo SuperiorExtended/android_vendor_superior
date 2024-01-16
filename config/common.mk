@@ -62,9 +62,17 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
     libprotobuf-cpp-lite-3.9.1-vendorcompat
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
 # Gapps
 ifeq ($(BUILD_WITH_GAPPS),true)
 $(call inherit-product-if-exists, vendor/gms/gms.mk)
+
+# UpdaterGMSOverlay
+PRODUCT_PACKAGES += \
+    UpdaterGMSOverlay
 endif
 
 # Hide nav Overlays
