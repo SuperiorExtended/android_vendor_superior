@@ -65,9 +65,17 @@ PRODUCT_PACKAGES += \
 # Certification
 $(call inherit-product-if-exists, vendor/certification/config.mk)
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
 # Gapps
 ifeq ($(BUILD_WITH_GAPPS),true)
 $(call inherit-product-if-exists, vendor/gms/gms.mk)
+
+# UpdaterGMSOverlay
+PRODUCT_PACKAGES += \
+    UpdaterGMSOverlay
 endif
 
 # Hide nav Overlays
