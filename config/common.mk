@@ -68,7 +68,7 @@ PRODUCT_PACKAGES += \
 
 # Gapps
 ifeq ($(BUILD_WITH_GAPPS),true)
-$(call inherit-product-if-exists, vendor/gms/gms.mk)
+$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 
 # UpdaterGMSOverlay
 PRODUCT_PACKAGES += \
