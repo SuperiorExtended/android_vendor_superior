@@ -66,4 +66,5 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
   ro.superior.display.version=$(SUPERIOR_DISPLAY_VERSION) \
   ro.superior.fingerprint=$(SUPERIOR_FINGERPRINT) \
   ro.build.datetime=$(BUILD_DATE_TIME) \
-  ro.superior.edition=$(SUPERIOR_EDITION)
+  ro.superior.edition=$(SUPERIOR_EDITION) \
+  ro.spos.maintainer=$(SUPERIOR_MAINTAINER)
