@@ -30,11 +30,11 @@ import urllib.request
 DEBUG = False
 
 custom_local_manifest = ".repo/local_manifests/superior.xml"
-custom_default_revision = "fourteen"
-custom_default_revision =  os.getenv('ROOMSERVICE_DEFAULT_BRANCH', 'fourteen')
+custom_default_revision = "UDC"
+custom_default_revision =  os.getenv('ROOMSERVICE_DEFAULT_BRANCH', 'UDC')
 custom_dependencies = "superior.dependencies"
-org_manifest = "SuperiorOS-Devices"  # leave empty if org is provided in manifest
-org_display = "SuperiorOS-Devices"  # needed for displaying
+org_manifest = "Extended-Devices"  # leave empty if org is provided in manifest
+org_display = "SuperiorExtended-Devices"  # needed for displaying
 
 github_auth = None
 
