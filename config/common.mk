@@ -37,6 +37,9 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+# Relax Broken Library Check
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+
 # Skip boot JAR checks.
 SKIP_BOOT_JARS_CHECK := true
 
